@@ -22,7 +22,7 @@ client-disconnect "/usr/bin/env slack-openvpn --webhookUrl YOUR_WEBHOOK_URL --ac
 Restart OpenVPN
 
 ```
-sudo service restart openvpn
+sudo service openvpn restart
 ```
 
 Now connect to your vpn. You now have slack notifications configured with OpenVPN!
