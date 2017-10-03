@@ -1,0 +1,40 @@
+{
+  "name": "slack-openvpn",
+  "version": "1.0.0",
+  "description": "Script to post slack notification after successful openvpn connection",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "gulp transpile-core"
+  },
+  "bin": {
+    "slack-openvpn": "lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kaplanmaxe/slack-openvpn.git"
+  },
+  "keywords": [
+    "slack",
+    "openvpn",
+    "connection",
+    "script"
+  ],
+  "author": "Max Kaplan <maxekaplan12@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaplanmaxe/slack-openvpn/issues"
+  },
+  "homepage": "https://github.com/kaplanmaxe/slack-openvpn#readme",
+  "dependencies": {
+    "commander": "^2.11.0",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "eslint-config-kaplankomputing": "^1.0.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "babel-core": "^6.26.0"
+  }
+}
