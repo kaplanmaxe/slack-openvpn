@@ -1,6 +1,6 @@
 {
   "name": "slack-openvpn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Script to post slack notification after successful openvpn connection",
   "main": "lib/index.js",
   "scripts": {
